@@ -1,0 +1,397 @@
+@media only screen and (min-width: 1200px)
+{
+    body{
+        margin: 0;
+        padding: 0;
+    
+    }
+    .menu{
+        background-color: blue;
+        height: 60px;
+        width: 100%;
+        
+        display: inline-block;
+    }
+    .amenu{
+        color:white;
+        text-decoration: none;
+        font-size: 30px;
+    
+    }
+    .ml{
+        list-style:none;
+        overflow: hidden;
+        padding: 0;
+    }
+    .mmenu{
+        float: left;
+        margin-left: 50px;
+        
+    }
+    .reg{
+        margin: 0 auto;
+        font-size: 20px;
+        
+    }
+    .podmen{
+        background-color:blue;
+        width: 70%;
+        height: 60px;
+        padding: 0;
+        margin: 0;
+        display: inline-block
+    }
+    
+    .applic{
+        margin: 0 auto; 
+    }
+    .blog1{
+        width: 70%;
+        height: 1000px;
+        border: 10px solid blue;
+        box-shadow: 0 0 5px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    
+    }
+    .blog2{
+        width: 100% ;
+        height: 5%;
+    
+    
+    }
+    .blog3{
+        width: 100% ;
+        height: 20%;
+        border: 1px solid black;
+        overflow-y: scroll;
+    
+    }
+    .blog4{
+        width: 100% ;
+        height: 5%;
+        border: 1px solid black;
+    
+    }
+    .blog5{
+        width: 100% ;
+        height: 65%;
+        border: 1px solid black;
+    }
+    
+    .blog6{
+        width: 100% ;
+        height: 5%;
+    
+    }
+    .docoz{
+        Width:100%;
+        height:100%;
+        transition: 1s; 
+        box-sizing: border-box;
+    }
+    
+    .imgg{
+        Width:100%;
+        height:100%;
+        transition: 1s;  
+    
+        box-sizing: border-box;
+    }
+    .imgg:hover .docoz{
+        width: 0%;
+        height: 0%;
+    }
+    .ist{
+        Width:0%;
+        height:0%;
+        transition: 1s; 
+        box-sizing: border-box;
+    }
+    .imgg:hover .ist{
+        width: 100%;
+        height: 100%;
+    }
+    li ul {
+        position: absolute; /* Подменю позиционируются абсолютно */
+        display: none; /* Скрываем подменю */
+        margin-bottom: 165px; /* Сдвигаем подменю вправо */
+        margin-bottom: -2em; /* Сдвигаем подменю вверх */
+        float: left;
+        background: blue;
+        padding:30px;
+        list-style:none;
+       }
+    li ul li {
+        float:none;
+        display:list-item;
+            position: relative;
+            list-style:none;
+            
+    }
+    li:hover ul {
+        display: block; /* При выделении пункта курсором мыши отображается подменю */
+        
+       }
+    .kol{
+        background: red;
+        margin: 0 auto;
+        padding: 20px;
+        width: 10%;
+        border: 2px solid brown;
+        box-shadow: 0 0 5px;
+        margin-bottom: 30px;
+    }
+    #kol{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .blogp{
+       font-size: 30px;
+       margin: 5px; 
+    }
+    input{
+        width: 300px;
+        font-size: 13px;
+        padding: 6px 0 4px  10px;
+        border: 1px solid #cecece;
+        background: #F6F6f6;
+        border-radius: 8px;
+    }
+    
+        
+    .regg{
+        margin-left: 40%;
+    }
+    
+    table {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+        font-size: 14px;
+        border-collapse: collapse;
+        text-align: center;
+        }
+        th, td:first-child {
+        background: #AFCDE7;
+        color: white;
+        padding: 10px 20px;
+        }
+        th, td {
+        border-style: solid;
+        border-width: 0 1px 1px 0;
+        border-color: white;
+        }
+        td {
+        background: #D8E6F3;
+        }
+        th:first-child, td:first-child {
+        text-align: left;
+        }
+    
+        .butt{
+        text-decoration: none;
+        background: white;
+        border: 1px solid #cecece;
+        border-radius: 8px;
+        color: black;
+        }
+}
+
+@media only screen and (width: 720px)
+{
+    body{
+        margin: 0;
+        padding: 0;
+    
+    }
+    .menu{
+        background-color: blue;
+        height: 60px;
+        width: 100%;
+        overflow: hidden;
+        display: inline-block;
+    }
+    .amenu{
+        color:white;
+        text-decoration: none;
+        font-size: 30px;
+    
+    }
+    .ml{
+        list-style:none;
+        overflow: hidden;
+        padding: 0;
+        display: block;
+    }
+    .mmenu{
+        float: left;
+        margin-left: 50px;
+        
+    }
+    .reg{
+        margin: 0 auto;
+        font-size: 20px;
+        
+    }
+    .podmen{
+        background-color:blue;
+        width: 70%;
+        height: 60px;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        verflow: hidden;
+    }
+    
+    .applic{
+        margin: 0 auto; 
+    }
+    .blog1{
+        width: 70%;
+        height: 1000px;
+        border: 10px solid blue;
+        box-shadow: 0 0 5px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    
+    }
+    .blog2{
+        width: 100% ;
+        height: 5%;
+    
+    
+    }
+    .blog3{
+        width: 100% ;
+        height: 20%;
+        border: 1px solid black;
+        overflow-y: scroll;
+    
+    }
+    .blog4{
+        width: 100% ;
+        height: 5%;
+        border: 1px solid black;
+    
+    }
+    .blog5{
+        width: 100% ;
+        height: 65%;
+        border: 1px solid black;
+    }
+    
+    .blog6{
+        width: 100% ;
+        height: 5%;
+    
+    }
+    .docoz{
+        Width:100%;
+        height:100%;
+        transition: 1s; 
+        box-sizing: border-box;
+    }
+    
+    .imgg{
+        Width:100%;
+        height:100%;
+        transition: 1s;  
+    
+        box-sizing: border-box;
+    }
+    .imgg:hover .docoz{
+        width: 0%;
+        height: 0%;
+    }
+    .ist{
+        Width:0%;
+        height:0%;
+        transition: 1s; 
+        box-sizing: border-box;
+    }
+    .imgg:hover .ist{
+        width: 100%;
+        height: 100%;
+    }
+    li ul {
+        position: absolute; /* Подменю позиционируются абсолютно */
+        display: none; /* Скрываем подменю */
+        margin-bottom: 165px; /* Сдвигаем подменю вправо */
+        margin-bottom: -2em; /* Сдвигаем подменю вверх */
+        float: left;
+        background: blue;
+        padding:30px;
+        list-style:none;
+       }
+    li ul li {
+        float:none;
+        display:list-item;
+            position: relative;
+            list-style:none;
+            
+    }
+    li:hover ul {
+        display: block; /* При выделении пункта курсором мыши отображается подменю */
+        
+       }
+    .kol{
+        background: red;
+        margin: 0 auto;
+        padding: 20px;
+        width: 10%;
+        border: 2px solid brown;
+        box-shadow: 0 0 5px;
+        margin-bottom: 30px;
+    }
+    #kol{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .blogp{
+       font-size: 30px;
+       margin: 5px; 
+    }
+    input{
+        width: 300px;
+        font-size: 13px;
+        padding: 6px 0 4px  10px;
+        border: 1px solid #cecece;
+        background: #F6F6f6;
+        border-radius: 8px;
+    }
+    
+        
+    .regg{
+        margin-left: 40%;
+    }
+    
+    table {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+        font-size: 14px;
+        border-collapse: collapse;
+        text-align: center;
+        }
+        th, td:first-child {
+        background: #AFCDE7;
+        color: white;
+        padding: 10px 20px;
+        }
+        th, td {
+        border-style: solid;
+        border-width: 0 1px 1px 0;
+        border-color: white;
+        }
+        td {
+        background: #D8E6F3;
+        }
+        th:first-child, td:first-child {
+        text-align: left;
+        }
+    
+        .butt{
+        text-decoration: none;
+        background: white;
+        border: 1px solid #cecece;
+        border-radius: 8px;
+        color: black;
+        }
+}
