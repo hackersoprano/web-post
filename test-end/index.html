@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href="style/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel='stylesheet' href="style/style.css">
+	<title>Features</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</head>
+<body>
+    <script src="js/nav.js"></script>
+    <header class='header'>
+        <div class='wrapper'>
+            <div class="header__wrapper">
+                <nav class="navbar navbar-expand-lg navbar-light nav__link">
+                    <div class="container-fluid">
+                      <a class="navbar-brand left" href="#"><img src="images/svg/Logo.svg"></a>
+                      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon-X">X</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar_res">
+                          <li class="nav-item ">
+                            <a class="nav-link" aria-current="page" href="#">About</a>
+                          </li>
+                          
+                          <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Help <img src='images/svg/arrow-small-down.svg' class="arrow_down">
+                            </a>
+                            <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">User Guide</a></li>
+                              <li><a class="dropdown-item" href="#">Contact Support</a></li>
+                            </ul> -->
+                            <ul class="dropdownn" id="drop">
+                                <li class="header__item_down"><a href="#" class="header__item_down_link">User Guide</a></li>
+                                <li class="header__item_down"><a href="#" class="header__item_down_link">Contact Support</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Features</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex">
+                          <button class="nav__button" type="submit">Sign Up</button>
+                        </form>
+                      </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="title">
+            <div class="title__h1">
+                <h1>Features</h1>
+            </div>
+            <div class="title__p">
+                <p class="title__div_p">Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.</p>
+            </div>
+        </section>
+        <!-- Слайды -->
+        <script src="js/slyde.js"></script>
+        <section class="slyde">
+            <!-- Тут слайд -->
+            
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="wrapperr">
+            <div class="footer__wrapper">
+                <div class="footer__logo">
+                    <a href="#" class="wrapper__logo-link">
+                    <img src='images/svg/Logo2.svg' alt='Features' class="wrapper__logo-img">
+                    </a>
+                </div>
+                <div class="footer__nav">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">About Us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__search">
+                    <form action='' method="POST">
+                        <input class="footer__search_input" type="text" placeholder="Enter your email">
+                        <input class="footer__button" type="button" value="Sign Up Now" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

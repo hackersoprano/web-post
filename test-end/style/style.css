@@ -1,0 +1,713 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v27-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/roboto-v27-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v27-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-900 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/roboto-v27-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v27-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  html{
+      box-sizing: border-box;
+  }
+  *, *::before, *::after{
+      box-sizing: inherit;
+  }
+
+
+  body{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 160%;
+    font-weight: 500;
+}
+/* Начало навигации */
+nav{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: white;
+    color: #212353;
+    margin: 0 auto;
+}
+.nav-link{
+    color: #212353!important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+}
+.nav-link:hover{
+    color: #9C69E2!important;
+}
+.nav__button{
+    width: 180px;
+    height: 60px;
+    background: #9C69E2;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    margin-left: 590px;
+}
+.nav__button:hover{
+    background: #B17FF4;
+    transition-duration: 0.3s;
+}
+
+.nav-item{
+    margin-left: 47px;
+    
+}
+.navbar-brand{
+    margin-right: 131px;
+}
+
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+   
+}
+
+.header__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.header{
+    margin-top: 2%;
+}
+
+
+.nav-item .dropdownn{
+    position: absolute;
+    display: none;
+    width: 180px;
+    height: 100px;
+    margin-left: -24px;
+    background-image :url('../images/svg/Union.svg');
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding-left: 25px;
+    padding-top: 30px;
+    
+    
+}
+.nav-item .dropdownn .header__item_down{
+    float:none;
+    display:list-item;
+        position: relative;
+        list-style:none;
+}
+.nav-item:hover .dropdownn{
+    display: block;
+    
+}
+.nav-item .dropdownn .header__item_down{
+    float:none;
+    display:list-item;
+        position: relative;
+        list-style:none;
+}
+.header__item_down_link{
+    color: #212353;
+    text-decoration: none;
+}
+.header__item_down_link:hover{
+    color: #B17FF4;
+    transition-duration: 0.3s;
+}
+.nav-item:hover .arrow_down{
+    content:url('../images/svg/arrow-small-up.svg');
+}
+.nav-item:hover .nav-link{
+    color: #9C69E2!important;
+}
+.arrow_down{
+    position: absolute;
+    padding-top: 11px;
+    padding-left: 2px;
+}
+
+/* Конец навигации */
+
+/* начало центра */
+.title__h1{
+    align-items: center;
+    text-align: center;
+    margin-top: 112px;
+}
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: #212353;
+}
+.title__p{
+   
+    margin: 0 auto;
+    margin-top: 37px;
+    width: 649px;
+    height: 74px;
+}
+.title__div_p{
+    font-size: 23px;
+    color: #4B5D68;
+    text-align: center;
+}
+.new{
+    width: 69px;
+    height: 34px;
+    position: absolute;
+    background-color: #F063B8;
+    box-shadow: 0px 4px 0px #EFE3C5;
+    border-radius: 0px 0px 4px 4px;
+    color: white;
+    text-align: center;
+    margin-top: -50px;
+}
+/* Слайды */
+
+.bg__main{
+    width: 1200px;
+    height: 585px;
+    background: #FFC84D;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 56px;
+    margin-bottom: 151px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bg__block{
+    background: #FFF3D7;
+    box-shadow: 0px 10px 0px #F5BD3F;
+    border-radius: 50px;
+    width: 390px;
+    height: 358px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 97px;
+}
+
+.block__text{
+    border: 1px solide black;
+    max-width: 216px;
+    margin-left: 113px;
+    margin-top:41px;
+    margin-right:62px;
+    margin-bottom: 41px;
+}
+h3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    height: 50px;
+}
+.text__block{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    width: 216px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text__block_link{
+    color: #212353;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.text__block_link:hover{
+    color: #9C69E2;
+    transition-duration: 0.3s;
+}
+.group56{
+    margin-left: 24px;
+}
+.block__number{
+    position: absolute;
+    
+    margin-left: -96px;
+    margin-top: 38px;
+}
+.block__number_img{
+    width:167px;
+    height:194px;
+}
+
+.list{
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 50px; 
+    
+}
+.list2{
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 70px; 
+}
+
+.carousel-indicators {
+    bottom:-120px;
+    right: 810px;
+    margin-left: 10px;
+  }
+.cyrcle{
+    border-radius: 50%;
+    background-color: white!important;
+    width: 10px!important;
+    height: 10px!important;
+}
+/* Футер */
+footer{
+    background-color: #9C69E2!important;
+    height: 197px;
+    position: absolute;
+    width: 100%;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.wrapperr{
+    max-width: 82%;
+    margin: 0 auto;
+}
+.footer__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.footer__logo{
+    max-width: 49px;
+    max-height: 35px;
+    float: left;
+}
+
+.footer__logo-img{
+    max-width: 49px;
+    max-height: 35px;
+}
+
+.footer__nav{
+    margin-left: 191px;
+    padding-top:5px;
+}
+.footer__list{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.footer__item{
+    margin-right: 54px;
+    display: block;
+    float: left;
+    position: center;
+    text-decoration: none;
+    transition-duration: 0.5s; 
+}
+.footer__link{
+    color: white;
+    font-size: 16px;
+}
+.footer__search_input{
+    width: 419px;
+    height: 48px;
+    margin-left: 259px;
+    border-radius: 4px;
+    border: none;
+    
+}
+
+.footer__button{
+    background: #EEAA12;
+    border-radius: 50px;
+    width: 148px;
+    height: 48px;
+    margin-left:33px;
+    border: none;
+    color: white;
+}
+.footer__button:hover{
+    background: #FFBE2D;
+    transition-duration: 0.5s;
+}
+
+@media screen and (max-width:993px) {
+    /* Меню */
+    .wrapper{
+        width: 100%!important;
+        margin: 0 auto;
+    }
+    .header{
+        margin-top: 0%;
+    }
+    nav{
+        width: 100%;
+    }
+    .navbar-toggler{
+        border: none!important;
+    }
+    .navbar-toggler-icon-X{
+        font-weight: bold;
+        color: black;
+        font-size: 27px;
+        display: none;
+    }
+    .nav-item{
+        border-top: 1px solid #D6B9FF;
+        
+    }
+    .nav-item:last-child{
+        border-bottom: 1px solid #D6B9FF;
+    }
+    .nav__button{
+        width: 180px;
+        height: 60px;
+        background: #9C69E2;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        margin-left: 400px; 
+        margin-top:20px;
+        margin-bottom: 20px;
+    }
+    .arrow_down{
+        position: absolute;
+        padding-top: 11px;
+        padding-left: 91%;
+        content:url('../images/svg/Union-right.svg');
+        
+    }
+    .nav-item{
+        margin-left: 0px;
+        
+    }
+    .nav-link{
+        color: #212353!important;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 27px;
+    }
+    .header__item_down{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        color: #212353;
+        border:none;
+        padding-left: 32px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    .dropdown-menu{
+        border:none;
+        background: #F9F4FF;
+        border-top: 1px solid #D6B9FF;
+    }
+    .nav-item:hover .arrow_down{
+        content:url('../images/svg/Union-down.svg');
+    }
+    /* конец меню */
+    /* заголовок */
+    .title__h1{
+        margin-top: 50px;
+    }
+    h1{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    .title__div_p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        line-height: 160%;
+    }
+    /* конец заголовка */
+
+    /* Слайдер */
+   
+    .bg__main{
+        width: 682px;
+        height: 585px;
+        background: #FFC84D;
+        border-radius: 50px;
+        margin: 0 auto;
+        margin-top: 56px;
+        margin-bottom: 151px;
+    }
+    .carousel-indicators {
+        bottom: -100px;
+        right: 350px;
+        margin-left: 0px;
+    }
+    .cyrcle{
+        border-radius: 50%;
+        background-color: white!important;
+        width: 10px!important;
+        height: 10px!important;
+        margin-right: 15px!important;
+        /* #F063B8 */
+    }
+
+    /* Конец слайдера */
+
+    /* футер */
+
+    footer{
+        background-color: #9C69E2!important;
+        height: 177px;
+        position: absolute;
+        width: 100%;
+        padding-top: 66px;
+    }
+    .wrapperr{
+        max-width: 92%;
+        margin: 0 auto;
+    }
+    
+    .footer__logo{
+        max-width: 49px;
+        max-height: 35px;
+        float: left;
+    }
+    
+    .footer__logo-img{
+        max-width: 49px;
+        max-height: 35px;
+    }
+    
+    .footer__nav{
+        margin-left: 40px;
+    }
+    .footer__list{
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+    }
+    .footer__item{
+        display: block;
+        
+        text-decoration: none;
+        transition-duration: 0.5s; 
+        margin: 1px;
+        
+    }
+    .footer__link{
+        color: white;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 250%;
+    }
+    .footer__search_input{
+        width: 247px;
+        height: 48px;
+        /* margin-left: 100px; */
+        border-radius: 4px;
+        border: none;
+        
+    }
+
+    
+    .footer__button{
+        background: #EEAA12;
+        border-radius: 50px;
+        width: 148px;
+        height: 48px;
+        margin-left:30px;
+        border: none;
+        color: white;
+    }
+    .footer__button:hover{
+        background: #FFBE2D;
+        transition-duration: 0.5s;
+    }
+    .footer__search{
+        margin-left: 30px; 
+    }
+    .footer__item{
+        margin-right: 0;
+        display:block;
+        float: none;
+        position: none;
+        text-decoration: none;
+        transition-duration: 0.5s; 
+    }
+
+    /* конец футера */
+}
+@media screen and (max-width:768px) {
+    .footer__nav{
+        margin-left: 50px;
+    }
+    .footer__search{
+        margin-left: 50px; 
+        position:absolute;
+    }
+    .footer__button{
+        background: #EEAA12;
+        border-radius: 50px;
+        width: 148px;
+        height: 48px;
+        margin-left:10px;
+        border: none;
+        color: white;
+    }
+    .footer__search_input{
+        width: 247px;
+        height: 48px;
+        /* margin-left: 100px; */
+        border-radius: 4px;
+        border: none; 
+    }
+    .wrapperr{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:320px) {
+
+    .arrow_down{
+        position: absolute;
+        padding-top: 11px;
+        padding-left: 40%;
+        content:url('../images/svg/Union-right.svg');  
+    }
+    .title__h1{
+        align-items: center;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .title__p{
+   
+        margin: 0 auto;
+        margin-top: 37px;
+        width: 280px;
+        height: 185px;
+    }
+   .h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 130%;
+   }
+   .title__div_p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 160%;
+   }
+   
+   /* слайд */
+   .bg__main{
+    width: 320px;
+    height: 495px;
+    border-radius: 0;
+   }
+   .bg__block{
+    width: 280px;
+    height: 358px;
+    background: #FFF3D7;
+    box-shadow: 0px 10px 0px #F5BD3F;
+    border-radius: 50px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 38px;
+    margin-bottom: 99px;
+   }
+   .block__text{
+    border: 1px solide black;
+    max-width: 216px;
+    margin-left: 31px;
+    margin-top: 35px;
+    margin-right:30px;
+    margin-bottom: 87px;
+    }
+    .carousel-indicators {
+        bottom: 20px;
+        right: -60px;
+        margin-left: 0px;
+    }
+    /* футер */
+    .footer{
+        width: 320px;
+        height: 344px;
+    }
+    .wrapperr{
+        max-width: 87%;
+        margin: 0 auto;
+    }
+      
+    .footer__nav{
+        /* margin-left: 30px; */
+        
+        margin-left: 128px;
+    }
+    .footer__list{
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+        
+    }
+    
+    
+    .footer__search_input{
+        width: 280px;
+        height: 48px;
+        margin-left: 259px;
+        border-radius: 4px;
+        border: none;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: -1px;
+    }
+    
+    .footer__button{
+        background: #EEAA12;
+        border-radius: 50px;
+        width: 148px;
+        height: 48px;
+        margin-left:33px;
+        border: none;
+        color: white;
+        position: absolute;
+        margin-top: 170px;
+        margin-left: 60px;
+    }
+    
+    .footer__search{
+        margin-left: 0px; 
+        float: left;
+        margin: 0 auto;
+        
+    }
+    
+
+}
