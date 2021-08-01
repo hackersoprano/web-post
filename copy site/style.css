@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+}
+
+
+.headd1{
+	background-color: white;
+	height: 100%;
+	width: 100%;
+}
+.headd2{
+	background-color: white;
+	height: 135px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0.5px 0 7px silver;
+    
+	}
+.headd3{
+	background-color:white;
+	height: 80px;
+	width: 100%;
+    margin: 0 auto;
+    border-bottom: 0.1px solid silver;
+	}
+a.button10 {
+    text-align: center;
+    width: 170px;
+    height: 30px;
+  display: inline-block;
+  color: black;
+  font-size: 100%;
+  font-weight: 100px;
+  text-decoration: none;
+  user-select: none;
+padding-top: 10px;
+  outline: none;
+  border: 1px solid #cccccc;
+  border-radius: 7px;
+  background: white;
+  box-shadow: inset 0 -2px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,0);
+  transition: box-shadow .2s, border-color .2s;
+} 
+a.button10:hover {
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px #cccccc;
+  color:black;
+}
+a.button10:active {
+  padding: calc(.25em + 1px) .5em calc(.25em - 1px);
+  border-color: #cccccc;
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,.1), inset 0 1px 2px rgba(0,0,0,.3), inset 0 0 0 60px #cccccc;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ .test:hover{
+  transform: rotate(180deg);
+  transition: transform .2s ease-in-out;
+  
+}
+nav{
+    margin-left: 30px;
+    width:1000px;
+    margin: 0 auto;
+    padding-left: 60px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+li{
+    float:left;
+    margin-top: 20px;
+    padding-right: 40px;
+    display: block;
+    position: relative;
+}
+a:hover{
+  color: silver;
+  transition: 0.2s linear;
+}
+ul li ul {
+  background-color: white;
+  border-radius: 7px;
+  visibility: hidden;
+opacity: 0;
+min-width: 10rem;
+  position: absolute;
+transition: all 0.5s ease;
+  left: 0;
+display: none;
+    box-shadow: 0 0 5px 1px silver;
+    text-align: center;
+    padding-left: 30px;
+    height: 0 auto;
+}
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+
+.info{
+  background-color: white;
+  width: 100%;
+  height: 420px;
+  margin-top: 10px;
+}
+.image{
+  height:370px;
+  width: 736px;
+  border-radius: 10px;
+  margin-top: 45px;
+  margin-left: 70px;
+  float: left;
+}
+.inf{
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-left: 90px;
+  margin-top: 45px;
+  border-radius: 10px;
+  box-shadow: 0 0 9px 0px silver;
+
+}
+.labl{
+  background-color: white;
+  margin-top: 6px;
+  width: 100%;
+  height: 60px;
+  border-bottom: 0.5px solid silver;
+}
+.imgg{
+  width: 75%;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.email{
+  width: 25px;
+  height: 20px;
+  margin-left: 20px;
+}
+.em:hover{
+  color:black;
+  
+}
+.phone{
+  width: 25px;
+  height: 20px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.about{
+  background-color: white;
+  width: 100%;
+  height: 800px;
+  margin-top: 60px;
+}
+.about1{
+  background-color: white;
+  width:100%;
+  height: 42%;
+}
+.textblock1{
+  background-color: white;
+  width: 64%;
+  height: 100%;
+}
+.about2{
+  background-color: white;
+  width:100%;
+  height: 60%;
+}
+.textblock2{
+  background-color: white;
+  width: 64%;
+  height: 100%;
+}
+
+.addinfo{
+  width: 220px;
+  height:85px;
+  background-color: white;
+  float: right;
+  margin-right: 150px;
+  margin-top: 80px;
+  border-left: 6px solid #1E90FF;
+  padding-left: 10px;
+}
+.addinfo2{
+  width: 220px;
+  height:100px;
+  background-color:white;
+  float: right;
+  margin-right: 150px;
+  border-left: 6px solid #1E90FF;
+  padding-left: 10px;
+}
+
+.map{
+  width:100%;
+  height: 500px;
+  background-color: white;
+  margin-top: 50px;
+}
+.mapimg{
+  height: 380px;
+  width: 736px;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+.ur{
+  width: 100%;
+  height: 75px;
+  background-color: white;
+  box-shadow: 0 0 9px 0px silver;
+}
+.main{
+  background-color: white;
+  height:100%;
+  width:22%;
+  float:left;
+}
+.mainmenu{
+  background-color: white;
+  height:1%;
+  width:60%;
+  float:left;
+  padding-top: 20px;
+
+}
+.mainimage{
+  background-color: white;
+  height:100%;
+  width:18%;
+  float:left;
+}
+
+.mm:hover{
+  color: black;
+}
+.mm{
+  color: black;
+  font-size: 30px;
+  margin-left: 40px;
+  
+}
+
+.imgmain{
+  width: 40px;
+  height: 40px;
+  float:left;
+  margin-top: 20px;
+  margin-left: 10px;
+}
